@@ -1,0 +1,72 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.header {
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--iris);
+}
+
+.header-logo span {
+  color: red;
+}
+
+.header-link {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.header-navigation {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-division {
+}
+
+.header-mail {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-tel {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
