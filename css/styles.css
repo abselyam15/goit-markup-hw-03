@@ -35,18 +35,15 @@ body {
 }
 
 .header-link {
-  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
 .header-mail {
-  letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 
 .header-tel {
-  letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 
 .hero-section {
@@ -60,12 +57,10 @@ body {
 .benefits-header {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
 .benefits-text {
-  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
@@ -74,8 +69,6 @@ body {
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .team-section {
@@ -87,26 +80,22 @@ body {
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .team-name {
   font-weight: 500;
   font-size: 20px;
   text-align: center;
-  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
 .team-text {
   text-align: center;
-  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
 footer {
-  background-color: #2e2f42;
+  background-color: var(--navy-blue);
 }
 
 .footer-logo {
@@ -116,7 +105,6 @@ footer {
   line-height: 21px;
   display: flex;
   align-items: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--cloud);
 }
@@ -126,20 +114,17 @@ footer {
 }
 
 .footer-text {
-  letter-spacing: 0.02em;
   color: var(--cornflower);
 }
 
 .card-header {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
 .card-text {
   line-height: 24px;
-  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
