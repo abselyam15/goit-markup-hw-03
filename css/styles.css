@@ -27,7 +27,6 @@ body {
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  line-height: 24px;
   color: var(--navy-blue);
 }
 
@@ -36,28 +35,22 @@ body {
 }
 
 .header-link {
-  line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
 .header-mail {
-  line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
 .header-tel {
-  line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
 .hero-section {
   background-color: var(--navy-blue);
-}
-
-.benefits-section {
 }
 
 .benefits {
@@ -67,18 +60,13 @@ body {
 .benefits-header {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
 .benefits-text {
-  line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--slate);
-}
-
-.examples-section {
 }
 
 .examples {
@@ -88,9 +76,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-
-.examples-image {
 }
 
 .team-section {
@@ -106,20 +91,15 @@ body {
   text-transform: capitalize;
 }
 
-.team-image {
-}
-
 .team-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
 .team-text {
-  line-height: 24px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--slate);
@@ -146,7 +126,6 @@ footer {
 }
 
 .footer-text {
-  line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--cornflower);
 }
@@ -154,7 +133,6 @@ footer {
 .card-header {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
