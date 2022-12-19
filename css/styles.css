@@ -24,9 +24,6 @@ body {
   font-size: 16px;
 }
 
-.header {
-}
-
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -60,8 +57,81 @@ body {
   background-color: var(--navy-blue);
 }
 
+.benefits-section {
+}
+
+.benefits {
+  display: none;
+}
+
+.benefits-header {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.benefits-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.examples-section {
+}
+
+.examples {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.examples-image {
+}
+
 .team-section {
   background-color: var(--cloud);
+}
+
+.team {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-image {
+}
+
+.team-name {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.team-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 footer {
