@@ -31,42 +31,84 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   line-height: 24px;
-  color: var(--iris);
+  color: var(--navy-blue);
 }
 
 .header-logo span {
-  color: red;
+  color: var(--iris);
 }
 
 .header-link {
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
-.header-navigation {
-}
-
-.header-list {
-}
-
-.header-item {
-}
-
-.header-division {
-}
-
 .header-mail {
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
 .header-tel {
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.hero-section {
+  background-color: var(--navy-blue);
+}
+
+.team-section {
+  background-color: var(--cloud);
+}
+
+footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
+}
+
+.footer-logo span {
+  color: var(--iris);
+}
+
+.footer-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--cornflower);
+}
+
+.card-header {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.card-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+button {
+  cursor: pointer;
 }
