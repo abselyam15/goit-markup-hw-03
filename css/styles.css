@@ -6,6 +6,7 @@
   --light-slate: #8e8f99;
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
+  --white: #ffffff;
 }
 
 * {
@@ -22,6 +23,16 @@ a {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  background-color: var(--white);
+  color: var(--slate);
+}
+
+.container {
+  width: 1440px;
+  height: 72px;
+  outline: 1px solid red;
+  padding: 24px 0px;
+  margin: 0 auto;
 }
 
 .header-logo {
@@ -38,19 +49,16 @@ body {
   color: var(--navy-blue);
 }
 
-.header-mail {
-  color: var(--slate);
-}
-
-.header-tel {
-  color: var(--slate);
-}
-
 .hero-section {
   background-color: var(--navy-blue);
 }
 
-.benefits {
+.hero-header {
+  color: var(--white);
+}
+
+.benefits,
+.filters {
   display: none;
 }
 
@@ -60,11 +68,8 @@ body {
   color: var(--navy-blue);
 }
 
-.benefits-text {
-  color: var(--slate);
-}
-
-.examples {
+.examples,
+.team {
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
@@ -73,13 +78,6 @@ body {
 
 .team-section {
   background-color: var(--cloud);
-}
-
-.team {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
 }
 
 .team-name {
@@ -91,7 +89,6 @@ body {
 
 .team-text {
   text-align: center;
-  color: var(--slate);
 }
 
 footer {
@@ -125,7 +122,6 @@ footer {
 
 .card-text {
   line-height: 1.5;
-  color: var(--slate);
 }
 
 button {
