@@ -28,10 +28,9 @@ body {
 }
 
 .container {
+  display: flex;
   width: 1440px;
-  height: 72px;
-  outline: 1px solid red;
-  padding: 24px 0px;
+  padding: 24px 12px;
   margin: 0 auto;
 }
 
@@ -39,14 +38,39 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   color: var(--navy-blue);
+  margin-right: 76px;
 }
 
 .header-logo span {
   color: var(--iris);
 }
 
+.header-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header-item {
+  display: flex;
+  margin-right: 40px;
+}
+
+.header-mail {
+  padding-right: 40px;
+}
+
+.header-list {
+  display: flex;
+}
+
 .header-link {
   color: var(--navy-blue);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--ocean);
 }
 
 .hero-section {
@@ -55,6 +79,29 @@ body {
 
 .hero-header {
   color: var(--white);
+  max-width: 494px;
+}
+
+.hero-btn {
+  color: var(--white);
+  background-color: var(--iris);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean);
+}
+
+.header-mail,
+.header-tel {
+  color: var(--slate);
+}
+
+.header-mail:hover,
+.header-tel:hover,
+.header-mail:focus,
+.header-tel:focus {
+  color: var(--ocean);
 }
 
 .benefits,
@@ -62,10 +109,23 @@ body {
   display: none;
 }
 
+.benefits-division {
+  display: flex;
+  box-sizing: border-box;
+  width: 264px;
+  height: 104px;
+  margin-right: 24px;
+}
+
 .benefits-header {
   font-weight: 500;
   font-size: 20px;
   color: var(--navy-blue);
+}
+
+.examples-img,
+.team-cards {
+  display: flex;
 }
 
 .examples,
@@ -78,6 +138,16 @@ body {
 
 .team-section {
   background-color: var(--cloud);
+  width: 1440px;
+  height: 732px;
+}
+
+.team-cards {
+  justify-content: center;
+}
+
+.team-card {
+  margin-right: 24px;
 }
 
 .team-name {
@@ -93,6 +163,7 @@ body {
 
 footer {
   background-color: var(--navy-blue);
+  height: 310px;
 }
 
 .footer-logo {
@@ -110,8 +181,15 @@ footer {
   color: var(--iris);
 }
 
+.footer-logo-div {
+  padding-top: 100px;
+  padding-left: 156px;
+}
+
 .footer-text {
   color: var(--cornflower);
+  width: 264px;
+  height: 72px;
 }
 
 .card-header {
@@ -126,4 +204,9 @@ footer {
 
 button {
   cursor: pointer;
+}
+
+.portfolio-img {
+  display: flex;
+  width: 1128px;
 }
