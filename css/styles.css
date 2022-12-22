@@ -50,7 +50,7 @@ header .container {
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 24px;
   color: var(--navy-blue);
 }
 
@@ -206,7 +206,7 @@ header .container {
 
 .team-section {
   background-color: var(--cloud);
-  width: 1440px;
+  width: 1540px;
   height: 732px;
 }
 
@@ -219,11 +219,10 @@ header .container {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   transition: 0.3s;
-  padding-bottom: 120px;
+  background-color: var(--white);
 }
 
 .team-cards {
-  margin-top: 72px;
   justify-content: center;
 }
 
@@ -236,6 +235,12 @@ header .container {
 
 .team-text {
   text-align: center;
+  margin-top: 8px;
+}
+
+.team-text-div {
+  margin-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* ----------FOOTER---------- */
@@ -272,8 +277,7 @@ footer {
 }
 
 .footer-text-div {
-  width: 264px;
-  height: 72px;
+  padding-right: 1020px;
 }
 
 /* ----------PORTFOLIO---------- */
