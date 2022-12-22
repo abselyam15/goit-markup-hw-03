@@ -45,6 +45,7 @@ header .container {
   align-items: center;
   padding-left: 156px;
   padding-right: 156px;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .header-logo {
@@ -282,17 +283,60 @@ footer {
 
 /* ----------PORTFOLIO---------- */
 
-.portfolio-img {
+.filter-btn-div {
   display: flex;
-  width: 1128px;
+  justify-content: center;
+  padding-bottom: 72px;
+}
+
+.filter-btn {
+  padding: 12px 24px;
+  margin-top: 96px;
+  color: var(--iris);
+  background: var(--cloud);
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  margin-right: 24px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+.portfolio-container-one,
+.portfolio-container-two,
+.portfolio-container-three {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-container-three {
+  padding-bottom: 120px;
+}
+
+.portfolio-box {
+  margin-right: 24px;
+}
+
+.portfolio-card {
+  border: 1px solid var(--cornflower);
+  width: 360px;
+  height: 420px;
+  margin-bottom: 48px;
 }
 
 .card-header {
+  padding-left: 16px;
+  margin-top: 32px;
   font-weight: 500;
   font-size: 20px;
   color: var(--navy-blue);
 }
 
 .card-text {
+  padding-left: 16px;
+  margin-top: 8px;
   line-height: 1.5;
 }
