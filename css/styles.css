@@ -31,9 +31,14 @@ button {
   cursor: pointer;
 }
 
+section {
+  padding: 120px 0;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* ----------HEADER---------- */
@@ -49,8 +54,8 @@ header .container {
 }
 
 .header-logo {
-  padding: 24px;
-  margin-right: 52px;
+  padding: 24px 0;
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 24px;
@@ -75,9 +80,15 @@ header .container {
   margin-right: 40px;
 }
 
+.header-tel,
+.header-mail {
+  padding: 24px 0;
+}
+
 .header-link {
-  font-weight: 500px;
+  font-weight: 500;
   color: var(--navy-blue);
+  padding: 24px 0;
 }
 
 .header-link:hover,
@@ -88,23 +99,18 @@ header .container {
 /* ----------HERO---------- */
 
 .hero-section {
-  height: 600px;
+  padding: 188px 0;
   background-color: var(--navy-blue);
-}
-
-.hero-section .container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 
 .hero-header {
   color: var(--white);
   font-size: 56px;
+  text-align: center;
+}
+
+.container,
+.hero-btn {
   text-align: center;
 }
 
@@ -140,7 +146,7 @@ header .container {
 /* ----------BENEFITS---------- */
 
 .benefits-section {
-  margin-top: 120px;
+  padding-bottom: 0;
 }
 
 .benefits,
@@ -151,19 +157,11 @@ header .container {
 .benefits-list {
   display: flex;
   justify-content: space-between;
-}
-
-.benefits-division {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  box-sizing: border-box;
-  width: 264px;
-  margin-right: 24px;
-  gap: 8px;
+  gap: 24px;
 }
 
 .benefits-header {
+  text-align: left;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -171,24 +169,22 @@ header .container {
 }
 
 .benefits-text {
+  text-align: left;
+  margin-top: 8px;
   letter-spacing: 0.02em;
   line-height: 1.2;
+  width: 264px;
 }
 
 /* ----------EXAMPLES---------- */
-
-.examples-section .container {
-  margin-top: 120px;
-}
 
 .examples-img,
 .team-cards {
   display: flex;
 }
 
-.exm-img-div,
-.team-card {
-  margin-right: 24px;
+.examples-img {
+  gap: 24px;
   margin-top: 72px;
 }
 
@@ -203,16 +199,11 @@ header .container {
 /* ----------TEAM---------- */
 
 .team-section {
-  margin-top: 120px;
-}
-
-.team-section {
   background-color: var(--cloud);
-  height: 732px;
 }
 
 .team {
-  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .team-card {
@@ -225,6 +216,7 @@ header .container {
 
 .team-cards {
   justify-content: center;
+  gap: 24px;
 }
 
 .team-name {
@@ -240,15 +232,14 @@ header .container {
 }
 
 .team-text-div {
-  margin-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0;
 }
 
 /* ----------FOOTER---------- */
 
 footer {
   background-color: var(--navy-blue);
-  height: 310px;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -266,18 +257,12 @@ footer {
   color: var(--iris);
 }
 
-.footer-logo-div {
-  padding-top: 100px;
-}
-
 .footer-text {
   color: var(--cornflower);
   margin-top: 16px;
   letter-spacing: 0.02em;
-}
-
-.footer-text-div {
   width: 264px;
+  text-align: left;
 }
 
 /* ----------PORTFOLIO---------- */
@@ -285,7 +270,6 @@ footer {
 .portgolio-section {
   letter-spacing: 0.02em;
   padding-top: 96px;
-  padding-bottom: 120px;
 }
 
 .filter-btn {
@@ -310,16 +294,25 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 24px;
+  padding-bottom: 72px;
 }
 
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1128px;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+/* .portfolio-list {
   display: grid;
   grid-template-columns: 360px 360px 360px;
   padding: 50px;
   justify-content: center;
   column-gap: 24px;
   row-gap: 50px;
-}
+} */
 
 .portfolio-list li div {
   margin-top: -4px;
